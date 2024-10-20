@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "HulugramShop"
+rootProject.name = "SEcom"
 include(":app")
  

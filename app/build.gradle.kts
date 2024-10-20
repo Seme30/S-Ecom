@@ -1,3 +1,6 @@
+import java.io.FileInputStream
+import java.util.Properties
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
@@ -6,12 +9,18 @@ plugins {
     alias(libs.plugins.firebase)
 }
 
+//val secretsFile = rootProject.file("secrets.properties")
+//val secrets = Properties()
+//if (secretsFile.exists()) {
+//    secrets.load(FileInputStream(secretsFile))
+//}
+
 android {
-    namespace = "com.semeprojects.hulugramshop"
+    namespace = "com.semeprojects.secom"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.semeprojects.hulugramshop"
+        applicationId = "com.semeprojects.secom"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -21,6 +30,7 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
+//        buildConfigField("String", "CHAPA_SECRET_KEY", "\"${secrets["CHAPA_SECRET_KEY"] ?: ""}\"")
     }
 
     buildTypes {
@@ -41,6 +51,7 @@ android {
     }
     buildFeatures {
         compose = true
+//        buildConfig = true
     }
     composeOptions {
         kotlinCompilerExtensionVersion = "1.5.1"

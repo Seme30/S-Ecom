@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.HulugramShop" parent="android:Theme.Material.Light.NoActionBar">
+    <style name="Theme.SEcom" parent="android:Theme.Material.Light.NoActionBar">
         <item name="android:windowIsTranslucent">true</item>
     </style>
 
-    <style name="Theme.CustomSplashScreenTheme" parent="Theme.HulugramShop">
+    <style name="Theme.CustomSplashScreenTheme" parent="Theme.SEcom">
         <item name="android:windowSplashScreenBackground">@color/white</item>
         <item name="android:windowBackground">@drawable/logo</item>
         <item name="android:duration">600</item>

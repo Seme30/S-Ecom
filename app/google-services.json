@@ -51,9 +51,9 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:975845505329:android:9743a358fe875b8685d810",
+        "mobilesdk_app_id": "1:975845505329:android:8a842223f089372885d810",
         "android_client_info": {
-          "package_name": "com.semeprojects.hulugramshop"
+          "package_name": "com.semeprojects.secom"
         }
       },
       "oauth_client": [
