@@ -1,4 +1,4 @@
-# HulugramShop Android App
+# S-Ecom Android App
 
 ## Overview
 
@@ -45,9 +45,6 @@ This Android application is built using Kotlin and Jetpack Compose. The app focu
 
 * **`util`:** Utility classes and functions for common tasks.
 
-## APK
-
-* The Built APK can be found in HuluShop/ directory.
 
 ## Screenshots 
 
